@@ -2,4 +2,4 @@
 
 * To-do
   * Add more programming languages
-  * Makefile
+  * Makefile (Done)
