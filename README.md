@@ -5,7 +5,17 @@
   * Makefile (Done)
 
 #### Installation
-##### git clone https://github.com/akisarazbu/run && cd run && sudo make clean install 
+
+```bash
+
+git clone https://github.com/akisarazbu/run && cd run && sudo make clean install 
+
+```
 
 #### Syntax
-##### run [cpp/python] [filename_without_extension]
+
+```bash
+
+run [cpp/python] [filename_without_extension]
+
+```
