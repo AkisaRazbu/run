@@ -27,3 +27,11 @@ if [ $PLANG = py ]
 then
     python $FNAME.$PLANG ; printf "\nAborted\n" 
 fi
+
+# Haskell runner
+
+if [ $PLANG = hs ]
+then
+	ghc -O2 $FNAME.$PLANG -o $FNAME
+	./$FNAME
+fi

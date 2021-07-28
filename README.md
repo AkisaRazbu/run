@@ -4,9 +4,10 @@
   * C++
   * Python
   * C
+  * Haskell
 
 * To-do
-  * Add more programming languages (Added C)
+  * Add more programming languages (Added C, Haskell)
   * Makefile (Done)
 
 #### Installation
@@ -21,6 +22,6 @@ git clone https://github.com/akisarazbu/run && cd run && sudo make clean install
 
 ```bash
 
-run [cpp/python/c] [filename_without_extension]
+run [cpp/python/c/hs] [filename_without_extension]
 
 ```
