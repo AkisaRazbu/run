@@ -1,4 +1,9 @@
-### Basic bash script that runs C++ and Python code
+### A bash script that runs code
+
+* Supported programming languages
+  * C++
+  * Python
+  * C
 
 * To-do
   * Add more programming languages (Added C)
