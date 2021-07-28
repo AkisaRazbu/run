@@ -8,7 +8,7 @@ cd $PWD
 if [ $PLANG = cpp ]
 then
     g++ -Wall -march=native -O2 $FNAME.$PLANG -o $FNAME
-    ./$FNAME.out
+    ./$FNAME
 fi
 
 if [ $PLANG = py ]
