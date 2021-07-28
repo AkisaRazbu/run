@@ -7,10 +7,11 @@ cd $PWD
 
 if [ $PLANG = cpp ]
 then
-	g++ -Wall -march=native -O2 $FNAME -o $FNAME.out
+    g++ -Wall -march=native -O2 $FNAME.$PLANG -o $FNAME
+    ./$FNAME.out
 fi
 
 if [ $PLANG = py ]
 then
-	python $FNAME
+    python $FNAME.$PLANG ; printf "\nAborted\n" 
 fi
